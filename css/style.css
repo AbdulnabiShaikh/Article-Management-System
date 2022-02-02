@@ -1,0 +1,123 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: lightblue;
+}
+
+
+.background{
+    background: rgba(0, 0, 0, 0.7)url('../display photo.jpg');
+    background-size: cover;
+    background-blend-mode: soft-light;
+    height: 50pc;
+    position: relative;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.navbar{
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    background-color: rgb(187, 118, 71);
+    height: 60px;
+    width : 100%;
+    display: flex;
+    align-items: top;
+}
+
+.nav-list a:hover{
+    text-decoration: none;
+    color: purple;
+    
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 18px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: emoji;
+}
+
+.rightNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 70;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+
+.logo{
+    height: 250;
+    width:25%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.logo png{
+    height: 0%;
+    width: 10%;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 50px;
+    width: 120pc;
+    height: 5pc;
+    font-size: 2pc;
+    color: #b10e95;
+}
+
+.home_content{    
+    margin: 3pc 14pc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: coral;
+}
+
+.article_info{
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    width: 50pc;
+    height: 10pc;
+    margin: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.family{
+    height: 400px;
+    width: 450px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
