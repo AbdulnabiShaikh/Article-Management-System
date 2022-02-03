@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+
+    <style>
+        h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bolder;
+
+text-align: left;
+font-size: 2cm;
+background-color: white;
+
+
+}
+body{
+background-image:  url(image2.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+*{
+    box-sizing: border-box;
+}
+.main{
+    font-size: 0.6cm;
+font-family: Georgia, 'Times New Roman', Times, serif
+padding: 15px;
+color: whitesmoke;
+}
+button{
+    font-size: 0.5cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    border: 15px 15px black;
+    cursor: pointer;
+}
+input[type="text"],input[type="number"],input[type="email"],input[type="password"]{
+    border: 15px 15px black;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+    </style>
+
+</head>
+<body>
+    <form>
+<h1>Sign Up Form:</h1>
+<div class="main">
+<p>Name:<input type="text" name="name" id="name" placeholder="Amit Patil" required> </p>
+<p>Phone No:<input type="number" name="number" id="number" placeholder="98999999999" required></p>
+<p>Email:<input type="email" name="email" id="email" placeholder="amitpatil@gmail.com" required></p>
+<p>Password:<input type="password" name="password" id="password" placeholder="1234" required></p>
+<p> Confirm Password:*<input type="password" name="confirm password" id="confirm password" placeholder="1234" required></p>
+</div>
+<button>Sign Up</button>
+    </form>
+</body>
+</html>
