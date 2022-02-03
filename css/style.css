@@ -187,3 +187,52 @@ section{
     justify-content: center;
 
 }
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    font-size: 50px;
+    color: purple;
+    margin: 20px 20px;
+    font-family: fangsong;
+}
+
+.contain{ 
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 7pc 7pc;
+
+}
+
+.edit{
+    color: black;
+    width: 22pc;
+    height: 22px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 15px 415px;
+    font-size: 20px;
+}
+
+.remember{
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: fangsong;
+}
+
+.signin{
+    height: 50px;
+    width: 9pc;
+    margin: 2pc 32pc
+}
