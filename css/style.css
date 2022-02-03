@@ -121,3 +121,69 @@ body{
     justify-content: end;
     align-items: flex-end;
 }
+
+.heading-contact{
+    background-color: rgb(187, 118, 71);
+    padding: 5px 20px 15px 20px;
+    border: 1px solid rgb(187, 118, 71);
+    border-radius: 4px;
+    color: white;
+}
+
+.body{
+    
+    background-color: lightgray;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="message"],
+textarea{
+    margin: 7px;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+input[type="button"]{
+    
+    width: 30%;
+    background-color: rgb(187, 118, 71);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 7px;
+    
+}
+
+input[type="button"]:hover{
+    background-color: rgb(88, 39, 5);
+    color: #b10e95;
+}
+
+.contact{
+    margin: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 600px;
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
