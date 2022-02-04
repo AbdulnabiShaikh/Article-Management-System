@@ -18,6 +18,7 @@ body{
     background-blend-mode: soft-light;
     height: 50pc;
     position: relative;
+    margin-top: -27px;
 }
 
 .firstSection{
@@ -130,7 +131,7 @@ body{
     color: white;
 }
 
-.body{
+ .body{
     
     background-color: lightgray;
     padding: 5px 20px 15px 20px;
@@ -141,11 +142,37 @@ body{
     flex-wrap: wrap;
 }
 
-input[type="text"],
-input[type="number"],
-input[type="email"],
-input[type="message"],
-textarea{
+.textbox{
+    margin: 7px;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: space-around;
+
+}
+
+.numbox{
+    margin: 7px;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: space-around;
+
+}
+
+.mailbox{
+    margin: 7px;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: space-around;
+
+}
+
+.commentbox{
     margin: 7px;
     width: 500px;
     padding: 10px;
@@ -154,7 +181,7 @@ textarea{
     justify-content: space-around;
 }
 
-input[type="button"]{
+.send{
     
     width: 30%;
     background-color: rgb(187, 118, 71);
@@ -163,11 +190,11 @@ input[type="button"]{
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
-    margin: 7px;
+    margin: 7px 12pc;
     
 }
 
-input[type="button"]:hover{
+.send:hover{
     background-color: rgb(88, 39, 5);
     color: #b10e95;
 }
@@ -179,8 +206,7 @@ input[type="button"]:hover{
     width: 600px;
 }
 
-section{
-    height: 100vh;
+#contact-us{
     width: 100vw;
     display: flex;
     align-items: center;
@@ -200,11 +226,12 @@ section{
     font-family: fangsong;
 }
 
-.contain{ 
+.container{ 
     display: block;
     justify-content: center;
     align-items: center;
     margin: 7pc 7pc;
+    border: 2px solid black;
 
 }
 
@@ -235,4 +262,9 @@ section{
     height: 50px;
     width: 9pc;
     margin: 2pc 32pc
+}
+
+.line{
+    margin-top: 10pc;
+    border:solid rgb(187, 118, 71);
 }
