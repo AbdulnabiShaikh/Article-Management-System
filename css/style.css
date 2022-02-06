@@ -312,3 +312,65 @@ body{
     display: block;
 }
 
+.add{
+    box-sizing: border-box;
+    margin: 40px;
+    display: flex;
+    position: relative;
+    float: right;
+}
+
+.add button{
+    width: 100px;
+    height: 70px;
+    float: right;
+    border-radius: 10px;
+    background-color: rgb(187, 118, 71);
+    color: white;
+    font-size: 20px;
+    font-family: emoji;
+}
+
+.add button:hover{
+    text-decoration: none;
+    color: purple;
+}
+
+.intro{
+    position: relative;
+    float: left;
+    border-radius: 8px;
+}
+
+#box1{
+    float: left;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.intro h1{
+    text-align: center;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: rgb(187, 118, 71);
+}
+
+.intro p{
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 10px;
+    
+}
