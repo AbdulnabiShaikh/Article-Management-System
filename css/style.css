@@ -17,7 +17,7 @@ body{
     background-size: cover;
     background-blend-mode: soft-light;
     height: 50pc;
-    position: relative;
+    margin-top: -27px;
 }
 
 .firstSection{
@@ -130,7 +130,7 @@ body{
     color: white;
 }
 
-.body{
+ .body{
     
     background-color: lightgray;
     padding: 5px 20px 15px 20px;
@@ -141,11 +141,37 @@ body{
     flex-wrap: wrap;
 }
 
-input[type="text"],
-input[type="number"],
-input[type="email"],
-input[type="message"],
-textarea{
+.textbox{
+    margin: 7px;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: space-around;
+
+}
+
+.numbox{
+    margin: 7px;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: space-around;
+
+}
+
+.mailbox{
+    margin: 7px;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: space-around;
+
+}
+
+.commentbox{
     margin: 7px;
     width: 500px;
     padding: 10px;
@@ -154,7 +180,7 @@ textarea{
     justify-content: space-around;
 }
 
-input[type="button"]{
+.send{
     
     width: 30%;
     background-color: rgb(187, 118, 71);
@@ -163,11 +189,11 @@ input[type="button"]{
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
-    margin: 7px;
+    margin: 7px 12pc;
     
 }
 
-input[type="button"]:hover{
+.send:hover{
     background-color: rgb(88, 39, 5);
     color: #b10e95;
 }
@@ -179,11 +205,110 @@ input[type="button"]:hover{
     width: 600px;
 }
 
-section{
-    height: 100vh;
+#contact-us{
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    font-size: 50px;
+    color: purple;
+    margin: 20px 20px;
+    font-family: fangsong;
+}
+
+.container{ 
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 7pc 7pc;
+    border: 2px solid black;
+
+}
+
+.edit{
+    color: black;
+    width: 22pc;
+    height: 22px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 15px 415px;
+    font-size: 20px;
+}
+
+.remember{
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: fangsong;
+}
+
+.signin{
+    height: 50px;
+    width: 9pc;
+    margin: 2pc 32pc
+}
+
+.line{
+    margin-top: 10pc;
+    border:solid rgb(187, 118, 71);
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin-top: 5px;
+}
+  
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: sienna;
+}
+  
+.dropdown:hover .dropdown-content {
+      background-color: snow;
+    display: block;
+}
+
