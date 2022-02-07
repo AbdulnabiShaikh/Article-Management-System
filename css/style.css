@@ -374,3 +374,57 @@ body{
     padding: 10px;
     
 }
+
+.addwork{
+    font-size: 3pc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(187, 118, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3pc;
+    height: 5px;
+    margin: 4pc;
+    margin-bottom: 3pc;
+    padding: 15px 20px;
+}
+
+.plus{
+    height: 5pc;
+    padding: 0pc 4pc;
+    margin-left: 55pc;
+    border-radius: 10pc;
+    display: block;
+    color:rgb(187, 118, 71);
+    font-size: 4pc;
+    border-color: crimson;
+}
+
+.plus:hover{
+    background-color: lightgreen;
+}
+
+.education{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  font-size: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: chocolate;
+}
+
+.globe{
+    height: 20pc;
+    margin-top: 1px;
+    margin-left: 18px;
+    margin-right: 2pc;
+    width: 50%;
+    border-radius: 3pc;
+}
+
+.edu_info{
+  margin-top: -1px;
+  width: 100%;
+  margin-right: 15px;
+}
