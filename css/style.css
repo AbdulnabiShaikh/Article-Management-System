@@ -429,3 +429,45 @@ body{
   width: 100%;
   margin-right: 15px;
 }
+
+.SocialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chocolate;
+}
+
+.SocialMedia_info{
+     margin-top: -1px;
+     width: 100%;
+     margin-right: 12px;
+}
+.plus2{
+    height: 4pc;
+    padding: 0pc 4pc;
+    margin-left: 50pc;
+    border-radius: 10pc;
+    display: block;
+    color:rgb(187, 118, 71);
+    font-size: 3pc;
+    border-color: crimson;
+}
+.addwork2{
+    font-size: 3pc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(187, 118, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3pc;
+    height: 5px;
+    margin: 4pc;
+    margin-bottom: 3pc;
+    padding: 15px 20px;
+}
+.plus2:hover{
+    background-color: lightgreen;
+}
