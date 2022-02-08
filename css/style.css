@@ -16,8 +16,8 @@ body{
     background: rgba(0, 0, 0, 0.7)url('../display photo.jpg');
     background-size: cover;
     background-blend-mode: soft-light;
-    height: 50pc;
-    margin-top: -27px;
+    height: 58pc;
+    margin-top: -35px;
 }
 
 .firstSection{
@@ -25,7 +25,7 @@ body{
 }
 
 .navbar{
-    height: 34px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -220,7 +220,8 @@ body{
     align-items: center;
     height: 70px;
     font-size: 50px;
-    color: purple;
+    color: rgb(187, 118, 71);
+    height: 60px;;
     margin: 20px 20px;
     font-family: fangsong;
 }
@@ -229,7 +230,7 @@ body{
     display: block;
     justify-content: center;
     align-items: center;
-    margin: 7pc 7pc;
+    margin: 7pc 19pc;
     border: 2px solid black;
 
 }
