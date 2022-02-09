@@ -103,9 +103,13 @@
 
 .class1{
 float: left;
-height:10cm;
+height:9cm;
 width: 500px;
 overflow:hidden;
+margin: 15px;
+border-radius: 1cm;
+border: 10px solid black;
+
 }
 .class2{
     padding-top: 5cm;
@@ -116,11 +120,19 @@ color: rgb(187, 118, 71);
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 2cm;
 font-weight: bold;
+text-align: center;
+position: relative;
+bottom: 3cm;
+right: 1cm;
+
+
 }
 p{
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color: grey;
-font-size: 0.5cm;
+font-size: 0.55cm;
+
+
 }
 button{
 height: 2cm;
@@ -155,16 +167,16 @@ button:hover{
     <nav class="navbar" id="Home">
         <ul class="nav-list">
             <div class="logo"><img src="https://images.squarespace-cdn.com/content/v1/5b1735dd8ab722a791596d79/1528252522168-ZNE2OKNZ9MUSN03UF1E0/MS_Logo.png?format=1500w" alt="logo"></div>
-            <li><a href="index.html"> Home</a></li>
+            <li><a href="#home"> Home</a></li>
             <div class="dropdown">
                 <button class="dropbtn">Categories
                   <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Social Media</a>
-                    <a href="/Politics.html" target="_blank">Politics</a>
-                    <a href="/education.html" target="_blank">Education</a>
-                    <a href="/entertainment.html" target="_blank">Entertainment</a>
+                  <a href="#">Social Media</a>
+                  <a href="#">Politics</a>
+                  <a href="#">education</a>
+                  <a href="#">Entertainment</a>
                 </div>
               </div>
             <li><a href="#articles"> Articles</a></li>
@@ -176,11 +188,11 @@ button:hover{
     </nav>
     <div class="class4">
     <div class="class3">
-        <button onclick="window.location.href='/signup.html'">+ Add</button>
+        <button>+ Add</button>
     </div>
     <div class="class2">
     
-    <img src="Images/image3.jpg" alt="" class="class1">
+    <img src="image3.jpg" alt="" class="class1">
 
 
      <h1>Politics</h1>
