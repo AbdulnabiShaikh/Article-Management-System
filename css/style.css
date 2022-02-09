@@ -16,8 +16,8 @@ body{
     background: rgba(0, 0, 0, 0.7)url('../display photo.jpg');
     background-size: cover;
     background-blend-mode: soft-light;
-    height: 50pc;
-    margin-top: -27px;
+    height: 58pc;
+    margin-top: -35px;
 }
 
 .firstSection{
@@ -25,7 +25,7 @@ body{
 }
 
 .navbar{
-    height: 34px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -220,7 +220,8 @@ body{
     align-items: center;
     height: 70px;
     font-size: 50px;
-    color: purple;
+    color: rgb(187, 118, 71);
+    height: 60px;;
     margin: 20px 20px;
     font-family: fangsong;
 }
@@ -229,7 +230,7 @@ body{
     display: block;
     justify-content: center;
     align-items: center;
-    margin: 7pc 7pc;
+    margin: 7pc 19pc;
     border: 2px solid black;
 
 }
@@ -373,4 +374,100 @@ body{
     margin-inline-end: 0px;
     padding: 10px;
     
+}
+
+.addwork{
+    font-size: 3pc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(187, 118, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3pc;
+    height: 5px;
+    margin: 4pc;
+    margin-bottom: 3pc;
+    padding: 15px 20px;
+}
+
+.plus{
+    height: 5pc;
+    padding: 0pc 4pc;
+    margin-left: 55pc;
+    border-radius: 10pc;
+    display: block;
+    color:rgb(187, 118, 71);
+    font-size: 4pc;
+    border-color: crimson;
+}
+
+.plus:hover{
+    background-color: lightgreen;
+}
+
+.education{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  font-size: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: chocolate;
+}
+
+.globe{
+    height: 20pc;
+    margin-top: 1px;
+    margin-left: 18px;
+    margin-right: 2pc;
+    width: 50%;
+    border-radius: 3pc;
+}
+
+.edu_info{
+  margin-top: -1px;
+  width: 100%;
+  margin-right: 15px;
+}
+
+.SocialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chocolate;
+}
+
+.SocialMedia_info{
+     margin-top: -1px;
+     width: 100%;
+     margin-right: 12px;
+}
+.plus2{
+    height: 4pc;
+    padding: 0pc 4pc;
+    margin-left: 50pc;
+    border-radius: 10pc;
+    display: block;
+    color:rgb(187, 118, 71);
+    font-size: 3pc;
+    border-color: crimson;
+}
+.addwork2{
+    font-size: 3pc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(187, 118, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3pc;
+    height: 5px;
+    margin: 4pc;
+    margin-bottom: 3pc;
+    padding: 15px 20px;
+}
+.plus2:hover{
+    background-color: lightgreen;
 }
