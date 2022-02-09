@@ -136,14 +136,14 @@ body{
     padding: 5px 20px 15px 20px;
     border: 1px solid lightgray;
     border-radius: 4px;
-    justify-content: space-around;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
 
 .textbox{
     margin: 7px;
-    width: 500px;
+    width: 600px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -153,7 +153,7 @@ body{
 
 .numbox{
     margin: 7px;
-    width: 500px;
+    width: 600px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -163,7 +163,7 @@ body{
 
 .mailbox{
     margin: 7px;
-    width: 500px;
+    width: 600px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -173,7 +173,7 @@ body{
 
 .commentbox{
     margin: 7px;
-    width: 500px;
+    width: 600px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -202,7 +202,7 @@ body{
     margin: 5px;
     padding: 20px;
     box-sizing: border-box;
-    width: 600px;
+    width: 800px;
 }
 
 #contact-us{
@@ -313,12 +313,17 @@ body{
     display: block;
 }
 
+.entertain_body{
+    background-color: snow;
+}
+
 .add{
     box-sizing: border-box;
     margin: 40px;
     display: flex;
     position: relative;
     float: right;
+    
 }
 
 .add button{
@@ -343,23 +348,18 @@ body{
     border-radius: 8px;
 }
 
-#box1{
+.box1{
     float: left;
     width: 500px;
     height: 250px;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
 }
 
 .intro h1{
     text-align: center;
-    display: block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    font-size: 70px;
     font-weight: bold;
     color: rgb(187, 118, 71);
 }
@@ -367,11 +367,7 @@ body{
 .intro p{
     display: block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    font-size: 30px;
     padding: 10px;
     
 }
