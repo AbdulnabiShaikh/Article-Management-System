@@ -75,6 +75,8 @@ body{
     display: flex;
     justify-content: left;
     align-items: left;
+    margin-left: 18px;
+    margin-right: -80px;
 }
 .logo png{
     height: 0%;
@@ -214,54 +216,103 @@ body{
 }
 
 
-.header{
+.container{
+    width: 100%;
+    height: 50pc;
+    font-family: sans-serif;
+    background-color: white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 35pc;
+    height: 35pc;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 26);
+    font-size: 20px;
+    background-color: lightblue;
+    margin-top: 7px;
+}
+
+.inner-box{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
-    font-size: 50px;
-    color: rgb(187, 118, 71);
-    height: 60px;;
-    margin: 20px 20px;
-    font-family: fangsong;
+    color:black;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
-.container{ 
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: 7pc 19pc;
-    border: 2px solid black;
-
+.card-front, .card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
 }
 
-.edit{
-    color: black;
-    width: 22pc;
-    height: 22px;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10px;
-    margin: 15px 415px;
-    font-size: 20px;
-}
-
-.remember{
-    height: 23px;
+.input-box{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    font-family: fangsong;
+    padding: 5px;
+    margin: 15px 0px;
+    border: 3px solid black;
+    border-radius: 12px;
+    width: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 40px;
+    margin-top: 2pc;
 }
 
-.signin{
-    height: 50px;
-    width: 9pc;
-    margin: 2pc 32pc
+.btn_go{
+    margin-left: 8pc;
+    margin-top: 3pc;
+    height: 4pc;
+    width: 10pc;
+    border-radius: 12px;
+    font-size: 2pc;
+    font-family: ui-rounded;
+}
+
+.btn_go:hover{
+    background-color: green;
+    color: white;
+}
+
+.btn_google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4pc;
+    height: 55px;
+    width: 15pc;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 6pc;
+    margin-top: 3pc;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: center;height: 70px;
+}
+
+.btn_google:hover{
+    background-color: green;
+    color: red;
 }
 
 .line{

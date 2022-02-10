@@ -26,11 +26,15 @@ background-repeat: no-repeat;
     box-sizing: border-box;
     background-color:lightblue;
 }
+.header{
+    display: flex;
+    justify-content: center;
+}
 .main{
     font-size: 0.5cm;
-font-family: Georgia, 'Times New Roman', Times, serif;
-padding: 15px;
-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    color: black;
     text-align: center;
 
 }
@@ -38,20 +42,28 @@ button{
     font-size: 0.8cm;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 15px;
-    border: 15px 15px black;
+    /* border: 15px 15px black; */
+    border: 3px solid black;
     cursor: pointer;
-    height: 1.4cm;
-    width: 3.5cm;
+    height: 1.6cm;
+    width: 3.8cm;
     text-align: center;
     right: 10cm;
     background-color: white;
+    margin-right: 9pc;
+}
+
+button:hover{
+    color: red;
+    background-color: green;
 }
 input[type="text"],input[type="number"],input[type="email"],input[type="password"]{
-    border: 15px 15px black;
+    border: 3px solid black;
     padding: 15px;
-    border-radius: 10px;
-    width: 8cm;
+    border-radius: 7px;
+    width: 27cm;
     background-color: white;
+    font-size: 25px;
    
     
 }
@@ -60,25 +72,28 @@ input[type="text"],input[type="number"],input[type="email"],input[type="password
     text-decoration: underline;
     cursor: pointer;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 9pc;
+    font-size: 2pc;
+    color: green;
 }
 .p2{
-margin: 15px;
-padding: 10px;
-
-
+    display: flex;
+    margin-left: 20pc;
+    height: 4pc;
+    margin-bottom: 3pc;
 }
     </style>
 
 </head>
 <body>
     <form>
-<h1>Sign Up Form:</h1>
+<h1 class="header">Kindly Sign Up:</h1>
 <div class="main">
-<p class="p2">Name:<input type="text" name="name" id="name"  required> </p>
-<p class="p2">Phone No:<input type="number" name="number" id="number"  required></p>
-<p class="p2">Email:<input type="email" name="email" id="email"  required></p>
-<p class="p2">Password:<input type="password" name="password" id="password"  required></p>
-<p class="p2"> Confirm Password:*<input type="password" name="confirm password" id="confirm password"  required></p>
+<p class="p2"><input type="text" placeholder="Enter Your Name" name="name" id="name"  required> </p>
+<p class="p2"><input type="number" placeholder="Enter Your Contact Number" name="number" id="number"  required></p>
+<p class="p2"><input type="email" placeholder="Enter Your Email Id" name="email" id="email"  required></p>
+<p class="p2"><input type="password" placeholder="Enter A Password" name="password" id="password"  required></p>
+<p class="p2"><input type="password" placeholder="Confirm Password" name="confirm password" id="confirm password"  required></p>
 
 <button>Sign Up</button>
 <p>Already a user?<em class="style1" href="#signin" onclick="window.location.href='/sign_in.html'" target="_blank">Sign in</em></p>

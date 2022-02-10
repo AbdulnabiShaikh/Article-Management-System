@@ -6,33 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Sign In</title>
+    <style>
+        body{
+            background-color: white;
+        }
+    </style>
 </head>
 <body>
-    <div class="header" id="head">
-        USER SIGN IN
+    <form action="backden.php">
+    <div class="container">
+        <div class="card">
+            <div class="inner-box">
+                <div class="card-front">
+                    <h1 class="header">User Sign In</h1>
+                        <input type="email" class="input-box" placeholder="Your Email" id="myEmail" required>
+                        <input type="password" class="input-box" placeholder="Enter Your Password" name="Passowrd" id="myPassword">
+                        <button class="btn_go">Sign In</button>
+                        <button class="btn_google">continue with google</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <section>
-        <form action="bankend.php">
-    <div class="container" id="input">
-        <div>
-            <input type="text" class="edit" placeholder="Enter Your Email Id" id="myEmail">
-        </div>
-        <br>
-        <div>
-            <input type="password" class="edit" placeholder="Enter Your Password">
-        </div>
-        <div class="edit remember">
-            remember me : <input type="checkbox">
-        </div>
-        <br>
-        <div>
-            <button class="edit signin"onclick="window.location.href='/MCQ.html'">Sign In</button>
-        </div>
-    </form>
-    </section>    
-
-    </div>
-
 </body>
 </html>
