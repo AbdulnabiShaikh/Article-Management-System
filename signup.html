@@ -13,36 +13,59 @@ font-weight: bolder;
 
 text-align: left;
 font-size: 2cm;
-background-color: white;
+color: rgb(187, 118, 71);
 
 
 }
 body{
-background-image:  url(Images/image2.jpg);
+
 background-size: cover;
 background-repeat: no-repeat;
 }
 *{
     box-sizing: border-box;
+    background-color:lightblue;
 }
 .main{
-    font-size: 0.6cm;
+    font-size: 0.5cm;
 font-family: Georgia, 'Times New Roman', Times, serif;
 padding: 15px;
-color: whitesmoke;
+color: black;
+    text-align: center;
+
 }
 button{
-    font-size: 0.5cm;
+    font-size: 0.8cm;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 15px;
     border: 15px 15px black;
     cursor: pointer;
+    height: 1.4cm;
+    width: 3.5cm;
+    text-align: center;
+    right: 10cm;
+    background-color: white;
 }
 input[type="text"],input[type="number"],input[type="email"],input[type="password"]{
     border: 15px 15px black;
     padding: 15px;
     border-radius: 10px;
+    width: 8cm;
+    background-color: white;
+   
     
+}
+.style1{
+
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.p2{
+margin: 15px;
+padding: 10px;
+
+
 }
     </style>
 
@@ -51,13 +74,15 @@ input[type="text"],input[type="number"],input[type="email"],input[type="password
     <form>
 <h1>Sign Up Form:</h1>
 <div class="main">
-<p>Name:<input type="text" name="name" id="name" placeholder="Amit Patil" required> </p>
-<p>Phone No:<input type="number" name="number" id="number" placeholder="98999999999" required></p>
-<p>Email:<input type="email" name="email" id="email" placeholder="amitpatil@gmail.com" required></p>
-<p>Password:<input type="password" name="password" id="password" placeholder="1234" required></p>
-<p> Confirm Password:*<input type="password" name="confirm password" id="confirm password" placeholder="1234" required></p>
-</div>
+<p class="p2">Name:<input type="text" name="name" id="name"  required> </p>
+<p class="p2">Phone No:<input type="number" name="number" id="number"  required></p>
+<p class="p2">Email:<input type="email" name="email" id="email"  required></p>
+<p class="p2">Password:<input type="password" name="password" id="password"  required></p>
+<p class="p2"> Confirm Password:*<input type="password" name="confirm password" id="confirm password"  required></p>
+
 <button>Sign Up</button>
+<p>Already a user?<em class="style1" href="#signin" onclick="window.location.href='/sign_in.html'" target="_blank">Sign in</em></p>
+</div>
     </form>
 </body>
 </html>
