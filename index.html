@@ -62,7 +62,7 @@
 <section id="contact-us">
     <div class="contact">
     
-        <form action="">
+        <form action="contact.php" method="post">
             <div class="heading-contact">
                 <h1>Contact Form</h1>
                 <p>All fields are mandatory</p>
@@ -71,28 +71,28 @@
            <div class="body">
 
             <div>
-                <p><input class="textbox" type="text" name="name" id="name" placeholder="Enter your name" required></p>
+                <p><input class="textbox" type="text" name="user_Name" id="name" placeholder="Enter your name" required></p>
              </div>
 
              <br>
              <div >
-                <p><input class="numbox" type="number" name="uin" id="uin" placeholder="Enter your contact no." required></p>
+                <p><input class="numbox" type="number" name="user_Contact" id="uin" placeholder="Enter your contact no." required></p>
 
              </div>
              <br>
     
              <div >
-                <p><input class="mailbox" type="email" name="email" id="email" placeholder="xyz@gmail.com" required></p>
+                <p><input class="mailbox" type="email" name="user_Email" id="email" placeholder="xyz@gmail.com" required></p>
  
              </div>    
              <br>
 
              <div >
-                <p><input class="commentbox" type="text" name="subject" id="subject" placeholder="Comments"></p>
+                <p><input class="commentbox" type="text" name="user_Comments" id="subject" placeholder="Comments"></p>
 
              </div>
              <br>
-            <input class="send" type="button" value="Send">
+            <input class="send" type="submit" value="submit" name="submit">
            </div>
     
         </form>

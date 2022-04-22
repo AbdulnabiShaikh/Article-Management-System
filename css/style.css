@@ -377,6 +377,11 @@ body{
     
 }
 
+.add input[type="file"]{
+    float: right;
+    
+}
+
 .add button{
     width: 100px;
     height: 70px;

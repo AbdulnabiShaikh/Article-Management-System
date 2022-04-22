@@ -1,0 +1,12 @@
+// Connect to Database
+  $conn = mysqli_connect('localhost', 'root', '', 'newsletter');
+
+  // Run Query
+  $res = mysqli_query($conn, "SELECT * FROM news");
+
+  // Fectch Row
+  $row = mysqli_fetch_assoc($res);
+
+  $row_count = mysqli_num_rows($res)
+  $pass = "test123";
+  $pass = md5($pass);

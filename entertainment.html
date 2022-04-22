@@ -40,10 +40,16 @@
         </ul>
     </nav>
 
-    <div class="add">
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+
+        
+        <div class="add">
        
-        <button onclick="window.location.href='/signup.html'">+ ADD</button>
-    </div>
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <button onclick="window.location.href='/signup.html'">+ ADD</button>
+        </div>
+
+    </form>
 
     <div class="intro">
         <img class="box1" src="Images/entertain.jpg" alt="">

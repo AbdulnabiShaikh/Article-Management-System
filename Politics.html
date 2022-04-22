@@ -5,164 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Politics</title>
+
     <style>
-.navbar{
-    height: 34px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: sticky;
-    top: 0;
-    cursor: pointer;
-}
-.nav-list{
-    background-color: rgb(187, 118, 71);
-    height: 60px;
-    width : 100%;
-    display: flex;
-    align-items: top;
-}
-.nav-list a:hover{
-    text-decoration: none;
-    color: purple;
-    
-}
-.nav-list li{
-    list-style: none;
-    padding: 18px 30px;
-}
-.nav-list li a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-family: emoji;
-}
-.rightNav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 70;
-    text-align: center;
-    padding: 5px 20px;
-}
-.logo{
-    height: 250;
-    width:25%;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-}
-.logo png{
-    height: 0%;
-    width: 10%;
-    border: 1px solid pink;
-    border-radius: 5px;
-}
-.dropdown {
-    float: left;
-    overflow: hidden;
-  }
-
-.dropdown .dropbtn {
-    font-size: 20px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; 
-    margin-top: 5px;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-  
-.dropdown-content a:hover {
-    background-color: sienna;
-}
-  
-.dropdown:hover .dropdown-content {
-      background-color: snow;
-    display: block;
-}
-
-.class1{
-float: left;
-height:9cm;
-width: 500px;
-overflow:hidden;
-margin: 15px;
-border-radius: 1cm;
-border: 10px solid black;
-
-}
-.class2{
-    padding-top: 5cm;
-    
-}
-h1{
-color: rgb(187, 118, 71);
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 2cm;
-font-weight: bold;
-text-align: center;
-position: relative;
-bottom: 3cm;
-right: 1cm;
-
-
-}
-p{
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-color: grey;
-font-size: 0.55cm;
-
-
-}
-button{
-height: 2cm;
-width: 4cm;
-float: right;
-display: flex;
-box-sizing: border-box;
-    margin: 40px;
-    position: relative;
-    text-align: center;
-    background-color: rgb(187, 118, 71);
-    color: beige;
-    padding: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.8cm;
-    border-radius: 1cm;
-    border: 15px 15px beige;
-    cursor: pointer;
-}
-button:hover{
-
-    color: blue;
-}
-.class4{
-    background-color: beige;
-}
-
-
+        body{
+            background-color: snow;
+        }
     </style>
+    
 </head>
 <body>
     <nav class="navbar" id="Home">
@@ -187,17 +38,25 @@ button:hover{
             <li><a href="#FAQs"> FAQs</a></li>
         </ul>
     </nav>
-    <div class="class4">
-    <div class="class3">
-        <button>+ Add</button>
+
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+
+        
+        <div class="add">
+       
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <button onclick="window.location.href='/signup.html'">+ ADD</button>
+        </div>
+
+    </form>
+
+    <div class="intro">
+        <img class="box1" src="Images/image3.jpg" alt="">
+        <h1>Politics</h1>
+        <p>
+            Politics is the set of activities that are associated with making decisions in groups, or other forms of power relations among individuals, such as the distribution of resources or status.A variety of methods are deployed in politics, which include promoting one's own political views among people, negotiation with other political subjects, making laws, and exercising force, including warfare against adversaries.Politics is exercised on a wide range of social levels, from clans and tribes of traditional societies, through modern local governments, companies and institutions up to sovereign states, to the international level. 
+        </p>
     </div>
-    <div class="class2">
+
     
-    <img src="Images/image3.jpg" alt="" class="class1">
-
-
-     <h1>Politics</h1>
-     <p>Politics is the set of activities that are associated with making decisions in groups, or other forms of power relations among individuals, such as the distribution of resources or status.A variety of methods are deployed in politics, which include promoting one's own political views among people, negotiation with other political subjects, making laws, and exercising force, including warfare against adversaries.Politics is exercised on a wide range of social levels, from clans and tribes of traditional societies, through modern local governments, companies and institutions up to sovereign states, to the international level.</p>
-    </div>
-</div>
 </body>
