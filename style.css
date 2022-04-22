@@ -1,0 +1,570 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:white;
+}
+
+
+.background{
+    background: rgba(0, 0, 0, 0.7) ;
+    background-image: url(../Images/imageams.jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    height: 58pc;
+    margin-top: -35px;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.navbar{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+}
+.nav-list{
+    background-color: rgb(17, 8, 2);
+    height: 60px;
+    width : 100%;
+    display: flex;
+    align-items: top;
+}
+
+.nav-list a:hover{
+    text-align: none;
+    background-color: rgb(148, 172, 236);
+    
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 18px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: emoji;
+}
+.dropdown-content{
+    font-size: 25px;
+}
+
+.rightNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 70;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+
+.logo{
+    height: 250;
+    width:25%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 18px;
+    margin-right: -80px;
+}
+.logo png{
+    height: 0%;
+    width: 10%;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Average&family=Beau+Rivage&family=Lobster&display=swap');
+
+
+.heading{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 40px 10px;
+    width: 86pc;
+    height: 20pc;
+    font-size: 4cm;
+    color: #f3f0f2;
+    
+    font-family: 'Average';
+font-family: 'Beau Rivage';
+font-family: 'Lobster';
+overflow: hidden;
+    
+    
+}
+.heading1{
+    color: #f9f9f9;
+    font-size: 0.8cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10cm 10px;
+   
+    
+}
+
+
+
+.home_content{    
+    margin: 3pc 14pc;
+  text-align: center;
+    font-size: 2.5cm;
+    color: white;
+    font-family: 'Average';
+font-family: 'Beau Rivage';
+font-family: 'Lobster';
+text-shadow: 4px 4px  black;
+font-weight: bold;
+}
+
+.article_info{
+    font-size: 0.7cm;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+    
+    /* width: 50pc;
+    height: 10pc; */
+    margin: 50px 3cm;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-weight: bold; 
+    text-shadow: 2px 2px white;
+    
+}
+.back{
+    /* background-image: url(../Images/imageedit_2_4237380250.jpg); */
+    height: 20cm;
+    width:100%;
+    background-color: grey;
+}
+
+.family{
+    height: 400px;
+    width: 450px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.heading-contact{
+    /* background-color: rgb(187, 118, 71); */
+    padding: 5px 20px 15px 20px;
+    /* border: 3px solid black; */
+    border-radius: 5px;
+    color: white;
+    text-shadow: 0.5px 0.5px rgb(240, 224, 224);
+    font-family: 'Average';
+font-family: 'Beau Rivage';
+font-family: 'Lobster';
+text-decoration: solid;
+font-size: 1cm;
+}
+
+ .body{
+    
+    /* background-color: lightgray;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray; */
+    border-radius: 4px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.5cm;
+}
+
+.textbox{
+    margin: 7px;
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: space-around;
+
+}
+
+.numbox{
+    margin: 7px;
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: space-around;
+
+}
+
+.mailbox{
+    margin: 7px;
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: space-around;
+
+}
+
+.commentbox{
+    margin: 7px;
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.send{
+    
+    width: 30%;
+    background-color:white;
+    color:black;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 0.5cm;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.send:hover{
+    background-color: black;
+    color: white;
+}
+
+.contact{
+    margin: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 800px;
+    border: 5px solid white ;
+    background-image: url(../Images/2666976.webp);
+}
+
+#contact-us{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.container{
+    width: 100%;
+    height: 50pc;
+    font-family: sans-serif;
+    background-color: white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 35pc;
+    height: 35pc;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 26);
+    font-size: 20px;
+    background-color: lightblue;
+    margin-top: 7px;
+}
+
+.inner-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.card-front, .card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 5px;
+    margin: 15px 0px;
+    border: 3px solid black;
+    border-radius: 12px;
+    width: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 40px;
+    margin-top: 2pc;
+}
+
+.btn_go{
+    margin-left: 8pc;
+    margin-top: 3pc;
+    height: 4pc;
+    width: 10pc;
+    border-radius: 12px;
+    font-size: 2pc;
+    font-family: ui-rounded;
+}
+
+.btn_go:hover{
+    background-color: green;
+    color: white;
+}
+
+.btn_google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4pc;
+    height: 55px;
+    width: 15pc;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 6pc;
+    margin-top: 3pc;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: center;height: 70px;
+}
+
+.btn_google:hover{
+    background-color: green;
+    color: red;
+}
+
+.line{
+    /* margin-top: 10pc; */
+    border:solid black;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin-top: 5px;
+}
+  
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: sienna;
+}
+  
+.dropdown:hover .dropdown-content {
+      background-color: snow;
+    display: block;
+}
+
+.entertain_body{
+    background-color: snow;
+}
+
+.add{
+    box-sizing: border-box;
+    margin: 40px;
+    display: flex;
+    position: relative;
+    float: right;
+    
+}
+
+.add button{
+    width: 100px;
+    height: 70px;
+    float: right;
+    border-radius: 10px;
+    background-color: rgb(187, 118, 71);
+    color: white;
+    font-size: 20px;
+    font-family: emoji;
+}
+
+.add button:hover{
+    text-decoration: none;
+    color: purple;
+}
+
+.intro{
+    position: relative;
+    float: left;
+    border-radius: 8px;
+}
+
+.box1{
+    float: left;
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.intro h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(187, 118, 71);
+}
+
+.intro p{
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    
+}
+
+.addwork{
+    font-size: 3pc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(187, 118, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3pc;
+    height: 5px;
+    margin: 4pc;
+    margin-bottom: 3pc;
+    padding: 15px 20px;
+}
+
+.plus{
+    height: 5pc;
+    padding: 0pc 4pc;
+    margin-left: 55pc;
+    border-radius: 10pc;
+    display: block;
+    color:rgb(187, 118, 71);
+    font-size: 4pc;
+    border-color: crimson;
+}
+
+.plus:hover{
+    background-color: lightgreen;
+}
+
+.education{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  font-size: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: chocolate;
+}
+
+.globe{
+    height: 20pc;
+    margin-top: 1px;
+    margin-left: 18px;
+    margin-right: 2pc;
+    width: 50%;
+    border-radius: 3pc;
+}
+
+.edu_info{
+  margin-top: -1px;
+  width: 100%;
+  margin-right: 15px;
+}
+
+.SocialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chocolate;
+}
+
+.SocialMedia_info{
+     margin-top: -1px;
+     width: 100%;
+     margin-right: 12px;
+}
+.plus2{
+    height: 4pc;
+    padding: 0pc 4pc;
+    margin-left: 50pc;
+    border-radius: 10pc;
+    display: block;
+    color:rgb(187, 118, 71);
+    font-size: 3pc;
+    border-color: crimson;
+}
+.addwork2{
+    font-size: 3pc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(187, 118, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3pc;
+    height: 5px;
+    margin: 4pc;
+    margin-bottom: 3pc;
+    padding: 15px 20px;
+}
+.plus2:hover{
+    background-color: lightgreen;
+}
