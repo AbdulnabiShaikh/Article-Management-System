@@ -120,6 +120,11 @@ border: 10px solid black;
     padding-top: 5cm;
     
 }
+#fileToUpload{
+   width: 50%;
+   margin-left: 75pc;
+   margin-top: 2pc;
+}
 h1{
 color: rgb(243, 215, 124);
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -213,12 +218,21 @@ button:hover{
             <li><a href="#FAQs"> FAQs</a></li>
         </ul>
     </nav>
-    
-    <div class="class4">
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+
+        
+        <div class="add">
+       
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <button onclick="window.location.href='/signup.html'">+ ADD</button>
+        </div>
+  
+    </form>
+    <!-- <div class="class4">
       <div class="class3">
           <button>+ Add</button>
       </div>
-      <div class="class2">
+      <div class="class2"> -->
       
       <!-- <img src="Images/image3.jpg" alt="" class="class1"> -->
       <marquee class="mar">Welcome to the Social Media section!Enjoy Reading , Writing and Learning</marquee>

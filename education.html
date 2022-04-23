@@ -171,6 +171,11 @@ button:hover{
     
     background-color: rgb(216, 215, 215);
 }
+#fileToUpload{
+   width: 50%;
+   margin-left: 75pc;
+   margin-top: 2pc;
+}
 .class4{
     background-color: white;
 }
@@ -213,12 +218,21 @@ button:hover{
             <li><a href="#FAQs"> FAQs</a></li>
         </ul>
     </nav>
-    
-    <div class="class4">
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+
+        
+        <div class="add">
+       
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <button onclick="window.location.href='/signup.html'">+ ADD</button>
+        </div>
+  
+    </form>    
+    <!-- <div class="class4">
       <div class="class3">
           <button>+ Add</button>
       </div>
-      <div class="class2">
+      <div class="class2"> -->
       
       <!-- <img src="Images/image3.jpg" alt="" class="class1"> -->
       <marquee class="mar">Welcome to the Education section!Enjoy Reading , Writing and Learning</marquee>
