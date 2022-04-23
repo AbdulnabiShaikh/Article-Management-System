@@ -150,6 +150,7 @@ font-weight: bold;
 }
 .back{
     /* background-image: url(../Images/imageedit_2_4237380250.jpg); */
+    /* background-image: url(./2666976.webp); */
     height: 20cm;
     width:100%;
     background-color: grey;
@@ -254,7 +255,7 @@ font-size: 1cm;
     box-sizing: border-box;
     width: 800px;
     border: 5px solid white ;
-    background-image: url(../Images/2666976.webp);
+    background-image: url(./2666976.webp);
 }
 
 #contact-us{
