@@ -13,7 +13,7 @@ font-weight: bolder;
 
 text-align: left;
 font-size: 2cm;
-color: rgb(187, 118, 71);
+color: black;
 
 
 }
@@ -24,12 +24,13 @@ background-repeat: no-repeat;
 }
 *{
     box-sizing: border-box;
-    background-color:lightblue;
+   background-color: white;
 }
 .header{
     display: flex;
     justify-content: center;
-    margin-top: 5px;
+    background-color: rgb(123, 142, 204);
+   
 }
 .main{
     font-size: 0.5cm;
@@ -43,6 +44,7 @@ button{
     font-size: 0.8cm;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 15px;
+    /* border: 15px 15px black; */
     border: 3px solid black;
     cursor: pointer;
     height: 1.6cm;
@@ -54,8 +56,8 @@ button{
 }
 
 button:hover{
-    color: red;
-    background-color: green;
+    
+    background-color:grey;
 }
 input[type="text"],input[type="number"],input[type="email"],input[type="password"]{
     border: 3px solid black;
@@ -64,8 +66,7 @@ input[type="text"],input[type="number"],input[type="email"],input[type="password
     width: 27cm;
     background-color: white;
     font-size: 25px;
-    /* margin-left: 25px; */
-    margin-right: 15pc;
+   
     
 }
 .style1{
@@ -75,22 +76,41 @@ input[type="text"],input[type="number"],input[type="email"],input[type="password
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-right: 9pc;
     font-size: 2pc;
-    color: green;
+    color: black;
 }
 .p2{
     display: flex;
-    margin-left: 15pc;
-    height: 40px;
+    margin-left: 20pc;
+    height: 4pc;
     margin-bottom: 3pc;
-    margin-top: 0px;
-    width: 80%;
 }
-    </style>
+
+    .logo{
+    height: 3cm;
+    width:25%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 18px;
+    margin-right: -80px;
+}
+.logo png{
+    height: 0%;
+    width: 5%;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+.class8{
+    font-size: 4cm;
+}
+</style>
 
 </head>
 <body>
     <form>
-<h1 class="header">Kindly Sign Up:</h1>
+        <div class="logo"><img src="https://images.squarespace-cdn.com/content/v1/5b1735dd8ab722a791596d79/1528252522168-ZNE2OKNZ9MUSN03UF1E0/MS_Logo.png?format=1500w" alt="logo"></div>
+        <!-- <marquee class="class8" loop="infinite" scrollmount="10000000000"><h1 class="heading"> ArManager</h1></marquee> -->
+<h1 class="header">Kindly Sign Up as User:</h1>
 <div class="main">
 <p class="p2"><input type="text" placeholder="Enter Your Name" name="name" id="name"  required> </p>
 <p class="p2"><input type="number" placeholder="Enter Your Contact Number" name="number" id="number"  required></p>
