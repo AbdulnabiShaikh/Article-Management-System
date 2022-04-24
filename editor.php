@@ -1,3 +1,7 @@
+<?php
+//echo "welcome Editor";
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,29 +22,18 @@
                   <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                  <a href="/SocialMedia.html" target="_blank">Social Media</a>
-                  <a href="/Politics.html" target="_blank">Politics</a>
-                  <a href="/education.html" target="_blank">Education</a>
-                  <a href="/entertainment.html" target="_blank">Entertainment</a>
+                  <a href="SocialMediaUser.php" target="_blank">Social Media</a>
+                  <a href="PoliticsUser.php" target="_blank">Politics</a>
+                  <a href="educationUser.php" target="_blank">Education</a>
+                  <a href="entertainmentUser.php" target="_blank">Entertainment</a>
                 </div>
               </div>
-            <li><a href="#articles"> Articles</a></li>
+            <li><a href="editor_articles.php"> Articles</a></li>
             <li><a href="#contact-us"> Contact Us</a></li>
-            <div class="dropdown">
-                <button class="dropbtn">Sign Up
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="/Signup.html" target="_blank">Sign Up as User</a>
-                  <a href="/adminsignup.html" target="_blank">Sign Up as Admin</a>
-                  
-                </div>
-              </div>
-
-
-            <!-- <li><a href="#signup" onclick="window.location.href='/signup.html'" target="_blank"> Sign up</a></li> -->
-            <li><a href="#signin" onclick="window.location.href='/sign_in.html'" target="_blank"> Sign in</a></li>
+            <li><a href="#signup" onclick="window.location.href='signup.php'" target="_blank"> Sign up</a></li>
+            <li><a href="#signin" onclick="window.location.href='alreadyaneditor.php'" target="_blank"> Sign in</a></li>
             <li><a href="#FAQs"> FAQs</a></li>
+            <li><a href="logout.php"> Logout</a></li>
         </ul>
     </nav>
     <section id="home">
