@@ -14,7 +14,8 @@ body{
 
 .background{
     background: rgba(0, 0, 0, 0.7) ;
-    background-image: url(../Images/imageams.jpg);
+    /* background-image: url(../Images/imageams.jpg); */
+    background-image: url(imageams.jpg);
     background-size: cover;
     background-blend-mode: soft-light;
     height: 58pc;

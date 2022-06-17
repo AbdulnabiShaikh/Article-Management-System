@@ -19,7 +19,7 @@ session_start();
 
 			//save to database
 			// $user_id = random_num(20);
-			$query = "insert into signup (id,name,number,email,password,confirm_password) values ('0','$txtname','$txtnumber','$txtemail','$txtpassword','$txtconfirmpassword')";
+			$query = "insert into signup (id,name,number,email,password,confirm_password) values ('0','$txtname','$txtnumber','$txtemail',md5('$txtpassword'),md5('$txtconfirmpassword'))";
 
 			mysqli_query($con, $query);
 
